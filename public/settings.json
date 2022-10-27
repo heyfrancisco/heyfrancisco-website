@@ -1,0 +1,141 @@
+{
+  // JavaScript/TypeScript
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "typescript.inlayHints.enumMemberValues.enabled": true,
+
+  // Python
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+
+  // Markdown
+  "markdown.preview.fontSize": 13,
+
+  // Other language and editing settings
+  "editor.inlineSuggest.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.tabCompletion": "on",
+  "editor.accessibilitySupport": "off",
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "files.exclude": {
+    ".next": true,
+    "**/.next": true
+  },
+  "search.useIgnoreFiles": true,
+  "cSpell.userWords": ["chakra", "focusables", "iframes", "uuid"],
+
+  // Git and Git Lens
+  "git.autofetch": true,
+  "gitlens.advanced.fileHistoryFollowsRenames": true,
+  "gitlens.blame.ignoreWhitespace": true,
+  "gitlens.blame.avatars": false,
+  "gitlens.currentLine.enabled": false,
+
+  // Live Share
+  "liveshare.presence": true,
+  "liveshare.allowInvites": "all",
+  "liveshare.anonymousGuestApproval": "accept",
+
+  // 1. Base stylistic settings
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.renderWhitespace": "trailing",
+  "editor.fontLigatures": true,
+  "editor.bracketPairColorization.enabled": true, // Native bracket colorization
+  "editor.suggest.showStatusBar": false,
+  "editor.tabSize": 4,
+  "breadcrumbs.filePath": "last",
+  "workbench.iconTheme": null,
+  "workbench.fontAliasing": "auto",
+  "editor.fontSize": 14,
+
+  // 2. Colour
+  "workbench.colorTheme": "Nord",
+  "workbench.preferredLightColorTheme": "Solarized Light",
+  "workbench.preferredDarkColorTheme": "Solarized Dark",
+  "window.autoDetectColorScheme": true,
+
+  // 3. Put your sidebar on the right
+  "workbench.sideBar.location": "right",
+
+  // 3. Disable the minimap
+  "editor.minimap.enabled": false,
+
+  // 4. Disbale folding
+  "editor.folding": false,
+
+  // 5. Zen Mode
+  "zenMode.centerLayout": false,
+  "zenMode.fullScreen": false,
+  "zenMode.hideStatusBar": false,
+  "zenMode.hideLineNumbers": false,
+
+  // 8. Keep it clean when you open a new window
+  "workbench.startupEditor": "none",
+
+  // 9. Tags
+  // Tone down default settings for Better Comments extension
+  "better-comments.tags": [
+    // XXX Hacks
+    {
+      "tag": "XXX",
+      "color": "#FF2D00", // Red
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    /*
+     // Nested comments
+     */
+    {
+      "tag": "//",
+      "color": "#149687",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    // TODOs
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
