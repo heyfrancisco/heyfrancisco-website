@@ -5,8 +5,8 @@ const About = () => {
         Hi 👋🏽 I'm Francisco. I was born and live in Lisbon, Portugal.
       </p>
       <p key={2} className="p-2">
-        I like learning about technology and make people`s life better with it.
-        I'm currently working @ IBM.
+        I like learning about technology and make people&apos;s life better with
+        it. I'm currently working @ IBM.
       </p>
       <p key={3} className="p-2">
         Outside of my academic ventures, I enjoy traveling and playing sports,
