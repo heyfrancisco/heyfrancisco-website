@@ -5,7 +5,7 @@ const About = () => {
         Hi 👋🏽 I&apos;m Francisco. I was born and live in Lisbon, Portugal.
       </p>
       <p key={2} className="p-2">
-        I&apos;m currently working @ IBM building solutions on someone else’s computer.
+        I&apos;m currently working @ IBM building solutions on cloud.
       </p>
       <p key={3} className="p-2">
         Feel free to say{" "}
