@@ -7,17 +7,11 @@ export default function Home() {
     <>
       <Head>
         <title>Francisco Ramos do Ó</title>
-        <meta
-          name="description"
-          content="Francisco Ramos do Ó Personal Website"
-        />
-        <meta
-          property="og:title"
-          content="Francisco Ramos do Ó Personal Website"
-        />
-        <link rel="icon" href="/icon.png" />
+        <meta name="description" content="Francisco Ramos do Ó Personal Website" />
+        <meta property="og:title" content="Francisco Ramos do Ó Personal Website" />
+        <link rel="icon" href="/images/icon.png" />
       </Head>
-      <div className="bg-zinc-900">
+      <div className="bg-gray-100">
         <Card>
           <About />
         </Card>
