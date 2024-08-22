@@ -1,6 +1,8 @@
 const Card = ({ children }) => {
   return (
-    <div className="flex h-screen items-center justify-center">{children}</div>
+    <div className="flex min-h-screen flex-col items-center justify-center">
+      {children}
+    </div>
   );
 };
 

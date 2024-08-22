@@ -5,8 +5,14 @@ export default function Layout({ children }) {
     <>
       <Head>
         <title>Francisco Ramos do Ó</title>
-        <meta name="description" content="Francisco Ramos do Ó Personal Website" />
-        <meta property="og:title" content="Francisco Ramos do Ó Personal Website" />
+        <meta
+          name="description"
+          content="Francisco Ramos do Ó Personal Website"
+        />
+        <meta
+          property="og:title"
+          content="Francisco Ramos do Ó Personal Website"
+        />
         <link rel="icon" href="/images/icon.png" />
         <link
           href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
